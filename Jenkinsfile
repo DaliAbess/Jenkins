@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'mvn --version'
-                sh 'lsb_release -a'
+                
                 sh 'ls'
             }
         }
