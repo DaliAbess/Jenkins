@@ -3,9 +3,15 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'mvn --version'
+
                 
                 sh 'ls'
+            }
+        }
+        stage('test') {
+            steps {
+                sh 'ls lsa'
+                
             }
         }
     }
