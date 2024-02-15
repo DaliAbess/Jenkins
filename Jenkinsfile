@@ -10,7 +10,7 @@ pipeline {
         }
         stage('test') {
             steps {
-                sh 'cat test.txt '
+                sh 'cat test.txt'
                 
             }
         }
