@@ -11,6 +11,7 @@ pipeline {
         stage('test') {
             steps {
                 sh 'cat test.txt'
+                sh 'sleep 60'
                 
             }
         }
