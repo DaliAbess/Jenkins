@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'maven:3.9.6-eclipse-temurin-17-alpine' } }
+    agent any
     stages {
         stage('build') {
             steps {
@@ -11,7 +11,7 @@ pipeline {
         stage('test') {
             steps {
                 sh 'cat test.txt'
-                sh 'sleep 60'
+                sh 'sleep 2'
                 
             }
         }
