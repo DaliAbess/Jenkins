@@ -5,7 +5,7 @@ pipeline {
             steps {
 
                 
-                sh 'ls'
+                sh 'lss'
             }
         }
         stage('test') {
