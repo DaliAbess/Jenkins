@@ -5,7 +5,7 @@ pipeline {
             steps {
 
                 
-                sh 'ls'
+                sh 'free'
             }
         }
         stage('test') {
