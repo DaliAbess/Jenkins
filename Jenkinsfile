@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
 
-                
+                sh 'df -H'
                 sh 'free'
             }
         }
