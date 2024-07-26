@@ -5,7 +5,7 @@ pipeline {
             steps {
 
                 sh 'df -H'
-                sh 'free'
+                sh 'ls -lsa'
             }
         }
         stage('test') {
