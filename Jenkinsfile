@@ -6,7 +6,7 @@ pipeline {
 
                 sh 'df -H'
                 sh 'ls -lsa'
-                sh 'lss'
+                
             }
         }
         stage('test') {
